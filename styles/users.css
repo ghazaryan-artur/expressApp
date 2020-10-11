@@ -1,0 +1,21 @@
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 8px;
+}
+  
+.user-card {
+    margin: 8px;
+    background: #4a4a4a;
+    padding: 10px;
+    border-radius: 8px;
+    min-width: 240px;
+    color: #bbbbbb;
+}
+  
+.user-card-value {
+    font-weight: 600;
+    color: #ffffff;
+}
+  

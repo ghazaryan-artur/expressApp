@@ -1,0 +1,20 @@
+html
+  head
+    title= title
+    link(rel="stylesheet" type="text/css" href="../styles/users.css")
+  body
+    div
+      h1 Users:
+      div.users-container
+        for item in users
+          div.user-card
+            div Username: 
+              span.user-card-value= item.username
+            div Password: 
+              span.user-card-value= item.password
+            div Gender: 
+              span.user-card-value= item.gender
+            div Is Agree: 
+              span.user-card-value= item.agree
+
+

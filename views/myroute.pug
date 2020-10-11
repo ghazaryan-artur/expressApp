@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+    link(rel="stylesheet" type="text/css" href="../style.css")
+  body
+    div
+      h1 You are looking for 
+        span= urlParamKey
+      div
+        ul
+          li(style="list-style:none")= urlParamValue
+      br
